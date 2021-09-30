@@ -21,7 +21,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/scheduling"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/scheduling"
 )
 
 // SchemeGroupVersion is group version used to register these objects

@@ -23,12 +23,12 @@ package v1beta1
 import (
 	unsafe "unsafe"
 
+	config "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
 	corev1 "k8s.io/api/core/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	configv1 "k8s.io/kube-scheduler/config/v1"
-	config "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
 )
 
 func init() {
@@ -269,7 +269,7 @@ func autoConvert_v1beta1_NodeResourceTopologyMatchArgs_To_config_NodeResourceTop
 		return err
 	}
 	out.Namespaces = *(*[]string)(unsafe.Pointer(&in.Namespaces))
-	// WARNING: in.ScoringStrategy requires manual conversion: inconvertible types (*sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1.ScoringStrategy vs sigs.k8s.io/scheduler-plugins/pkg/apis/config.ScoringStrategy)
+	// WARNING: in.ScoringStrategy requires manual conversion: inconvertible types (*github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1.ScoringStrategy vs github.com/muffin-rice/scheduler-plugins/pkg/apis/config.ScoringStrategy)
 	// Added manually
 	out.ScoringStrategy = *(*config.ScoringStrategy)(unsafe.Pointer(in.ScoringStrategy))
 	return nil
@@ -288,7 +288,7 @@ func autoConvert_config_NodeResourceTopologyMatchArgs_To_v1beta1_NodeResourceTop
 		return err
 	}
 	out.Namespaces = *(*[]string)(unsafe.Pointer(&in.Namespaces))
-	// WARNING: in.ScoringStrategy requires manual conversion: inconvertible types (*sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1.ScoringStrategy vs sigs.k8s.io/scheduler-plugins/pkg/apis/config.ScoringStrategy)
+	// WARNING: in.ScoringStrategy requires manual conversion: inconvertible types (*github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1.ScoringStrategy vs github.com/muffin-rice/scheduler-plugins/pkg/apis/config.ScoringStrategy)
 	// Added manually
 	out.ScoringStrategy = (*ScoringStrategy)(unsafe.Pointer(&in.ScoringStrategy))
 	return nil

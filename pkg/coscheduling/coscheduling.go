@@ -34,11 +34,11 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/coscheduling/core"
-	pgclientset "sigs.k8s.io/scheduler-plugins/pkg/generated/clientset/versioned"
-	pgformers "sigs.k8s.io/scheduler-plugins/pkg/generated/informers/externalversions"
-	"sigs.k8s.io/scheduler-plugins/pkg/util"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/coscheduling/core"
+	pgclientset "github.com/muffin-rice/scheduler-plugins/pkg/generated/clientset/versioned"
+	pgformers "github.com/muffin-rice/scheduler-plugins/pkg/generated/informers/externalversions"
+	"github.com/muffin-rice/scheduler-plugins/pkg/util"
 )
 
 // Coscheduling is a plugin that schedules pods in a group.

@@ -28,12 +28,12 @@ import (
 	v1 "k8s.io/kube-scheduler/config/v1"
 	defaultconfig "k8s.io/kubernetes/pkg/scheduler/apis/config"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1"
-	"sigs.k8s.io/scheduler-plugins/pkg/coscheduling"
-	"sigs.k8s.io/scheduler-plugins/pkg/noderesources"
-	"sigs.k8s.io/scheduler-plugins/pkg/trimaran/loadvariationriskbalancing"
-	"sigs.k8s.io/scheduler-plugins/pkg/trimaran/targetloadpacking"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1"
+	"github.com/muffin-rice/scheduler-plugins/pkg/coscheduling"
+	"github.com/muffin-rice/scheduler-plugins/pkg/noderesources"
+	"github.com/muffin-rice/scheduler-plugins/pkg/trimaran/loadvariationriskbalancing"
+	"github.com/muffin-rice/scheduler-plugins/pkg/trimaran/targetloadpacking"
 	"sigs.k8s.io/yaml"
 )
 
