@@ -19,9 +19,9 @@ limitations under the License.
 package v1alpha1
 
 import (
+	v1alpha1 "github.com/muffin-rice/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
+	"github.com/muffin-rice/scheduler-plugins/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
-	v1alpha1 "sigs.k8s.io/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
-	"sigs.k8s.io/scheduler-plugins/pkg/generated/clientset/versioned/scheme"
 )
 
 type SchedulingV1alpha1Interface interface {
