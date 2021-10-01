@@ -53,5 +53,4 @@ replace (
 	k8s.io/metrics => k8s.io/metrics v0.21.4
 	k8s.io/mount-utils => k8s.io/mount-utils v0.21.4
 	k8s.io/sample-apiserver => k8s.io/sample-apiserver v0.21.4
-	sigs.k8s.io/scheduler-plugins => https://github.com/muffin-rice/scheduler-plugins
 )
