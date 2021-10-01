@@ -25,8 +25,8 @@ import (
 	"github.com/paypal/load-watcher/pkg/watcher"
 	"github.com/stretchr/testify/assert"
 
-	pluginConfig "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1"
+	pluginConfig "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1"
 )
 
 var (

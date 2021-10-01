@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/klog/v2"
 
-	pluginConfig "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1"
+	pluginConfig "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1"
 )
 
 const (

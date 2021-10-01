@@ -27,7 +27,7 @@ import (
 	schedulerconfig "k8s.io/kube-scheduler/config/v1"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
 )
 
 // Allocatable is a score plugin that favors nodes based on their allocatable

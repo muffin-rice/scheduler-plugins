@@ -34,7 +34,7 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/trimaran"
+	"github.com/muffin-rice/scheduler-plugins/pkg/trimaran"
 )
 
 const (

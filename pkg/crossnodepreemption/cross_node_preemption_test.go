@@ -38,7 +38,7 @@ import (
 	frameworkruntime "k8s.io/kubernetes/pkg/scheduler/framework/runtime"
 	st "k8s.io/kubernetes/pkg/scheduler/testing"
 
-	testutil "sigs.k8s.io/scheduler-plugins/test/util"
+	testutil "github.com/muffin-rice/scheduler-plugins/test/util"
 )
 
 var (

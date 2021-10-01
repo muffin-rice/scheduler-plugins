@@ -38,7 +38,7 @@ import (
 	st "k8s.io/kubernetes/pkg/scheduler/testing"
 	imageutils "k8s.io/kubernetes/test/utils/image"
 
-	testutil "sigs.k8s.io/scheduler-plugins/test/util"
+	testutil "github.com/muffin-rice/scheduler-plugins/test/util"
 )
 
 const ResourceGPU v1.ResourceName = "nvidia.com/gpu"

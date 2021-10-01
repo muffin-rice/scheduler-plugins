@@ -34,7 +34,7 @@ import (
 	st "k8s.io/kubernetes/pkg/scheduler/testing"
 	imageutils "k8s.io/kubernetes/test/utils/image"
 
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
 )
 
 func PrintPods(t *testing.T, cs clientset.Interface, ns string) {

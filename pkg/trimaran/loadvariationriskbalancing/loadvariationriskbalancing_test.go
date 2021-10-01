@@ -39,9 +39,9 @@ import (
 	"k8s.io/kubernetes/pkg/scheduler/framework/runtime"
 	st "k8s.io/kubernetes/pkg/scheduler/testing"
 
-	pluginConfig "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1"
-	testutil "sigs.k8s.io/scheduler-plugins/test/util"
+	pluginConfig "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1"
+	testutil "github.com/muffin-rice/scheduler-plugins/test/util"
 )
 
 var _ framework.SharedLister = &testSharedLister{}

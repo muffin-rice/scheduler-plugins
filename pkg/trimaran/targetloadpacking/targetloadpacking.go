@@ -40,9 +40,9 @@ import (
 	"k8s.io/klog/v2"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
 
-	pluginConfig "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
-	"sigs.k8s.io/scheduler-plugins/pkg/apis/config/v1beta1"
-	"sigs.k8s.io/scheduler-plugins/pkg/trimaran"
+	pluginConfig "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
+	"github.com/muffin-rice/scheduler-plugins/pkg/apis/config/v1beta1"
+	"github.com/muffin-rice/scheduler-plugins/pkg/trimaran"
 )
 
 const (

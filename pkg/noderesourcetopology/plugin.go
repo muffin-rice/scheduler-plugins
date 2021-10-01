@@ -19,11 +19,11 @@ package noderesourcetopology
 import (
 	"fmt"
 
+	apiconfig "github.com/muffin-rice/scheduler-plugins/pkg/apis/config"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/klog/v2"
 	"k8s.io/kubernetes/pkg/scheduler/framework"
-	apiconfig "sigs.k8s.io/scheduler-plugins/pkg/apis/config"
 
 	topologyv1alpha1 "github.com/k8stopologyawareschedwg/noderesourcetopology-api/pkg/apis/topology/v1alpha1"
 	listerv1alpha1 "github.com/k8stopologyawareschedwg/noderesourcetopology-api/pkg/generated/listers/topology/v1alpha1"

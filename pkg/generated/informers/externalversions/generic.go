@@ -21,9 +21,9 @@ package externalversions
 import (
 	"fmt"
 
+	v1alpha1 "github.com/muffin-rice/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	v1alpha1 "sigs.k8s.io/scheduler-plugins/pkg/apis/scheduling/v1alpha1"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other
